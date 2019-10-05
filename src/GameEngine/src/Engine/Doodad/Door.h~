@@ -1,8 +1,0 @@
-
-#ifndef __DOOR_H
-
-class Door:public Doodad
-{
-
-
-}
