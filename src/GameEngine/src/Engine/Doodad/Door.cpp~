@@ -1,5 +1,0 @@
-#include "Door.h"
-
-Door();
-  void DoorOpen();
-  void DoorClose()

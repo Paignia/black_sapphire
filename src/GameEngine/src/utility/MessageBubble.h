@@ -1,7 +1,0 @@
-
-class MesssageBuggle: public SimpleLabel
-{
-	
-	
-
-}
