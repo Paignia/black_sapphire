@@ -1,3 +1,3 @@
 [submodule "GameEngine"]
-	path = GameEngine
+	path = src/GameEngine
 	url = git@github.com:cskandyla/YAD20E.git
