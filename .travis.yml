@@ -7,10 +7,8 @@ compiler:
 install:
 # Install conan
   - pip install conan
-# Automatic detection of your arch, compiler, etc.
   - conan user
 script:
-# Download dependencies and build project
   - cd build_conan
   - conan install ..
 # Call your build system
