@@ -425,6 +425,14 @@
    "True"
   ],
   [
+   "lua:build_compiler",
+   "False"
+  ],
+  [
+   "lua:build_interpreter",
+   "False"
+  ],
+  [
    "ogg:fPIC",
    "True"
   ],
