@@ -11,7 +11,7 @@ install:
   - conan config install conan_config/
 script:
   - cd build_conan
-  - conan install ..
+  - conan install .. --build=missing
 # Call your build system
   - cmake .. -G "Unix Makefiles"
   - cmake --build ..
