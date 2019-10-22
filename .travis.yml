@@ -4,6 +4,11 @@ python: "3.7"
 dist: xenial
 compiler:
   - gcc
+before_install:
+  - sudo apt-get install -y libasound2-dev:amd64 libpulse-dev:amd64 mesa-common-dev:amd64 libegl1-mesa-dev:amd64 libgbm-dev:amd64 libjack-dev:amd64 libaudio-dev:amd64 libxcursor-dev:amd64 libxinerama-dev:amd64 libxi-dev:amd64 libxrandr-dev:amd64 libtool-bin
+addons:
+  apt:
+    update: true
 install:
 # Install conan
   - pip install conan
