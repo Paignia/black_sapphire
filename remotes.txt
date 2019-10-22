@@ -1,3 +1,4 @@
 conan-center https://conan.bintray.com True 
 bincrafters https://api.bintray.com/conan/bincrafters/public-conan True 
 transit https://api.bintray.com/conan/conan/conan-transit True 
+zimmerk https://api.bintray.com/conan/zimmerk/conan True 
