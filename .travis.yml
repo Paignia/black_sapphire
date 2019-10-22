@@ -8,6 +8,7 @@ install:
 # Install conan
   - pip install conan
   - conan user
+  - conan config install .
 script:
   - cd build_conan
   - conan install ..
